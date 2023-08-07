@@ -1,0 +1,17 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+   <bean id="s" class="com.model.Student" autowire="byName">
+   <property name="rollno" value="1"></property>
+   <property name="name" value="NK"></property>
+  <!-- <property name="address" ref="adr"></property> -->
+   </bean>
+   
+   <bean id="adr" class="com.model.address">
+   <property name="areaname" value="karve"></property>
+   <property name="cityname" value="pune"></property>
+  
+   </bean>
+        
+</beans>
