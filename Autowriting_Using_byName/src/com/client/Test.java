@@ -19,5 +19,10 @@ public class Test {
 	{
 		return "I am world wide handsome";
 	}
+	public String RM()
+	{
+		return "I am Rapper";
+	}
+
 
 }
