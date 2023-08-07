@@ -9,9 +9,15 @@ import com.module.Student;
 
 public class Test {
 	public static void main(String[] args) {
+		
 		Resource r=new ClassPathResource("beans.xml");
 		BeanFactory bf=new XmlBeanFactory(r);
 		Student s=(Student) bf.getBean("s");
+	}
+	
+	public String taehyung()
+	{
+		return "I am world wide handsome";
 	}
 
 }
